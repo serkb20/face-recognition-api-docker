@@ -1,4 +1,4 @@
-# SmartBrain-api - Dockerized
+# FaceRecognition API - Dockerized
 Final project for Udemy course - using Docker
 
 1. Clone this repo
@@ -20,6 +20,5 @@ Run  `psql postgres://<username>:<password>@localhost:5432/smart-brain`
 To access redis:
 Run `docker-compose exec redis redis-cli`
 
-You can grab Clarifai API key [here](https://www.clarifai.com/)
 
-** Make sure you use postgreSQL instead of mySQL for this code base.
+
