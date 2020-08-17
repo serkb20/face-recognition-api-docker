@@ -11,7 +11,7 @@ const signToken = (username) => {
   return jwt.sign(jwtPayload, 'JWT_SECRET_KEY', { expiresIn: '2 days'});
 };
 
-const setToken = (key, value) => Promise.resolve(redisClient.set(key, value));
+const setToken =  (key, value) => Promise.resolve(redisClient.set(key, value));
 
 const createSession = (user) => {
   const { email, id } = user;
